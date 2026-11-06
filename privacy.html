@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — NeonType</title>
+<meta name="description" content="Read the privacy policy of NeonType. We do not collect or store your personal data.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⌨️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="/" class="logo">NEON<em>TYPE</em></a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/terms.html">Terms</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
+  <h1>Privacy Policy</h1>
+  <p><em>Last updated: <span id="d"></span></em></p>
+
+  <h2>1. Information We Collect</h2>
+  <p>NeonType does <strong>not</strong> require login or registration. We do not collect your name, email address, or any personal data. Your keystrokes are processed entirely in your browser and never transmitted to any server.</p>
+
+  <h2>2. Cookies and Analytics</h2>
+  <p>We may use third-party analytics and advertising services (such as Google AdSense) that set cookies to serve relevant ads. These cookies may collect anonymous usage data such as your approximate location, browser type, and pages viewed.</p>
+  <p>You can disable cookies through your browser settings at any time.</p>
+
+  <h2>3. Google AdSense</h2>
+  <p>We use Google AdSense to display ads. Google may use cookies (including the DoubleClick DART cookie) to serve ads based on your visit to this and other websites. You can opt out of personalised advertising by visiting <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">Google Ads Settings</a>.</p>
+
+  <h2>4. Third-Party Links</h2>
+  <p>Our site may contain links to external websites. We are not responsible for the privacy practices or content of those sites.</p>
+
+  <h2>5. Children's Privacy</h2>
+  <p>NeonType is not directed at children under 13. We do not knowingly collect data from anyone under 13.</p>
+
+  <h2>6. Changes to This Policy</h2>
+  <p>We may update this privacy policy from time to time. Any changes will be posted on this page.</p>
+
+  <h2>7. Contact</h2>
+  <p>For any privacy-related questions, please visit our <a href="/contact.html">contact page</a>.</p>
+
+  <a href="/" class="back">← BACK TO TYPING TEST</a>
+  <div class="footer">© <span id="yr"></span> NeonType</div>
+</div>
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  document.getElementById('d').textContent = new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'});
+</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — NeonType</title>
+<meta name="description" content="Terms of service for using NeonType typing speed test.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⌨️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a href="/" class="logo">NEON<em>TYPE</em></a>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/about.html">About</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+  </header>
+  <h1>Terms of Service</h1>
+  <p><em>Last updated: <span id="d"></span></em></p>
+
+  <h2>1. Acceptance</h2>
+  <p>By accessing NeonType, you agree to these terms. If you disagree, please do not use the site.</p>
+
+  <h2>2. Use of the Service</h2>
+  <p>NeonType is provided free of charge for personal, non-commercial use. You may not:</p>
+  <ul>
+    <li>Copy, redistribute, or resell the site's code or content without permission.</li>
+    <li>Use automated scripts to generate fake traffic or abuse advertising.</li>
+    <li>Attempt to hack, reverse-engineer, or disrupt the site.</li>
+  </ul>
+
+  <h2>3. No Warranty</h2>
+  <p>The service is provided "as is" without warranty of any kind. We do not guarantee accuracy of results, uptime, or fitness for any specific purpose.</p>
+
+  <h2>4. Limitation of Liability</h2>
+  <p>We are not liable for any indirect, incidental, or consequential damages arising from your use of the site.</p>
+
+  <h2>5. Advertising</h2>
+  <p>The site displays third-party ads. We are not responsible for the products or services advertised.</p>
+
+  <h2>6. Changes</h2>
+  <p>We may update these terms at any time. Continued use of the site means you accept the updated terms.</p>
+
+  <a href="/" class="back">← BACK TO TYPING TEST</a>
+  <div class="footer">© <span id="yr"></span> NeonType</div>
+</div>
+<script>
+  document.getElementById('yr').textContent = new Date().getFullYear();
+  document.getElementById('d').textContent = new Date().toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'});
+</script>
+</body>
+</html>
